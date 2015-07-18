@@ -1,0 +1,26 @@
+<instance description="For use with historical skin packs." template="vehicle_decal">
+	<group name="vehicle_decal_bag">
+		<locstring name="name" value="1" mod="9cec380ffb244ccaa7fc0e9ffa64bae5" />
+		<locstring name="description" value="2" mod="9cec380ffb244ccaa7fc0e9ffa64bae5" />
+		<icon name="icon" value="ModIcons_9cec380ffb244ccaa7fc0e9ffa64bae5_blank_canvas_icon" />
+		<string name="decal_name" value="DATA:\art\armies\common\badges\9cec380ffb244ccaa7fc0e9ffa64bae5\default_dif.rgt" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="1073741823" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\aef" />
+				<instance_reference name="race" value="racebps\german" />
+				<instance_reference name="race" value="racebps\soviet" />
+				<instance_reference name="race" value="racebps\west_german" />
+			</list>
+			<list name="search_tags">
+			</list>
+			<enum name="rarity" value="other" />
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<instance_reference name="store_item" value="" />
+	</group>
+	<uniqueid name="pbgid" value="1073741823" />
+</instance>
