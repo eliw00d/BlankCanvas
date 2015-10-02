@@ -11,6 +11,7 @@
 				<instance_reference name="race" value="racebps\german" />
 				<instance_reference name="race" value="racebps\soviet" />
 				<instance_reference name="race" value="racebps\west_german" />
+				<instance_reference name="race" value="racebps\british" />
 			</list>
 			<list name="search_tags">
 			</list>
